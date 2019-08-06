@@ -1,0 +1,20 @@
+[21-Apr-2015 01:46:15 America/Chicago] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from '../TrackService_v9.wsdl' : failed to load external entity "../TrackService_v9.wsdl"
+ in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 13
+[21-Apr-2015 01:46:15 America/Chicago] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from '../TrackService_v9.wsdl' : failed to load external entity "../TrackService_v9.wsdl"
+ in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php:13
+Stack trace:
+#0 /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php(13): SoapClient->SoapClient('../TrackService...', Array)
+#1 {main}
+  thrown in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 13
+[21-Apr-2015 02:23:34 America/Chicago] PHP Warning:  require_once(fedex-common.php5): failed to open stream: No such file or directory in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 5
+[21-Apr-2015 02:23:34 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'fedex-common.php5' (include_path='.:/opt/php54/lib/php') in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 5
+[21-Apr-2015 02:24:09 America/Chicago] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'TrackService_v9.wsdl' : failed to load external entity "TrackService_v9.wsdl"
+ in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 13
+[21-Apr-2015 02:24:09 America/Chicago] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'TrackService_v9.wsdl' : failed to load external entity "TrackService_v9.wsdl"
+ in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php:13
+Stack trace:
+#0 /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php(13): SoapClient->SoapClient('TrackService_v9...', Array)
+#1 {main}
+  thrown in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 13
+[21-Apr-2015 02:28:37 America/Chicago] PHP Warning:  require_once(fedex-common.php5): failed to open stream: No such file or directory in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 5
+[21-Apr-2015 02:28:37 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'fedex-common.php5' (include_path='.:/opt/php54/lib/php') in /home/clientsa/public_html/fedex/tracking/TrackWebServiceClient.php on line 5

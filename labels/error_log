@@ -1,0 +1,4 @@
+[23-Apr-2015 08:07:57 America/Chicago] PHP Warning:  require_once(../../library/fedex-common.php5): failed to open stream: No such file or directory in /home/clientsa/public_html/fedex/labels/OpenShipWebServiceClient.php on line 5
+[23-Apr-2015 08:07:57 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../../library/fedex-common.php5' (include_path='.:/opt/php54/lib/php') in /home/clientsa/public_html/fedex/labels/OpenShipWebServiceClient.php on line 5
+[23-Apr-2015 08:08:25 America/Chicago] PHP Warning:  require_once(fedex-common.php5): failed to open stream: No such file or directory in /home/clientsa/public_html/fedex/labels/OpenShipWebServiceClient.php on line 5
+[23-Apr-2015 08:08:25 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'fedex-common.php5' (include_path='.:/opt/php54/lib/php') in /home/clientsa/public_html/fedex/labels/OpenShipWebServiceClient.php on line 5
